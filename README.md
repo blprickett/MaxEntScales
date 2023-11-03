@@ -4,14 +4,19 @@ This is an updated implementation of the maximum entropy model of phonological l
 The software can learn phonolical mappings, including mappings that include lexical exceptions.  
 
 ## Input Format
-To run a simulation, the model needs two input files: one showing grammatical information (whose filename should end in "_grammar.txt") and one showing distributional information (whose filename should end in "_dist.txt"). The first line of the distributional file should show how many input-output pairs the model has in its training data in the format "\[number\] pairs". Every subsequent line should show the following information for each of those pairs:
+To run a simulation, the model needs two input files: one showing grammatical information (whose filename should end in "_grammar.txt") and one showing distributional information (whose filename should end in "_dist.txt"). The first line of the distributional file should show how many input-output pairs the model has in its training data in the format "*number* pairs". Every subsequent line should show the following information for each of those pairs:
 
 * The underlying form (surrounded by quotation marks in the first column and bare in the last column)
 * The surface form (in the second column, also surrounded by quotation marks)
 * The frequency of the pair in your training data (should be a whole number and appear in the third column)
 * A numerical label for each input-output pair in the fourth column (e.g., 1 for the first pair, 2 for the second, etc.)
 
-Columns can be separated by any kind of whitespace and there shouldn't be any lines after the final pair is described. Example files can be viewed in the Training_Data directory of this repo.
+Columns can be separated by any kind of whitespace and there shouldn't be any lines after the final pair is described. 
+
+For the grammar file, you first specify the number of constraints the model will use. The first line should have the format "*number* constraints:". Then you list each constraint in the format: 
+"constraint \[*N*\] "*constraintName*" 1 100 *constraintName*". Note that the "1 100" has no meaning here--it's meant to make these files compatible with other models of phonological learning. Also note that the square brackets here *should* appear in the actual file and "N" represents each constraint's number (where constraints are numbered 1, 2, 3... etc.). Next a line is skipped and then the total number of tableaux the model needs are given in the format "*number* tableaus". This number of tableaux should match the number of pairs from the distributional file. Each tableau should then be listed, first with a line specifying its input in the format "input \[*N*\]: "*UR*" *numberOfOutputCandidates*. Where N is tableau's number (and they're numbered 1, 2, 3... etc.), UR is the input to the tableau, and the number of candidates represents every output that you want to be possible, given that input. After the input line, the rest of a tableau's lines should each represent one candidate and that candidate's constraint violations, in the format "candidate \[*N*\]: "*SR*" *violations*. Where N is candidate's number (and they're numbered 1, 2, 3... etc.), SR is the candidate's phonological form, and violations are a space-delimited list of the constraint violations, in the order that the constraints were given at the top of the file. After all tableaux have been specified, the file can end.
+
+Examples of both the distribution and grammar files can be viewed in the Training_Data directory of this repo.
 
 ## Output Format
 After running the model, it will save a number of files. These files are timestamped, so you don't need to worry about overwriting files from previous simulations. Seven different kinds of output are created:

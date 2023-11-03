@@ -1,0 +1,25 @@
+24 pairs
+"mureg+PL"	"muregka"	79	1	mureg+PL
+"fogun+PL"	"fogunson"	40	2	fogun+PL
+"tozim+PL"	"tozimka"	26	3	tozim+PL
+"zobek+PL"	"zobekka"	20	4	zobek+PL
+"fabem+PL"	"fabemka"	16	5	fabem+PL
+"bikuk+PL"	"bikukson"	13	6	bikuk+PL
+"gorar+PL"	"gorarka"	11	7	gorar+PL
+"gagut+PL"	"gagutka"	10	8	gagut+PL
+"bizob+PL"	"bizobka"	9	9	bizob+PL
+"kumud+PL"	"kumudka"	8	10	kumud+PL
+"mitin+PL"	"mitinson"	7	11	mitin+PL
+"ninet+PL"	"ninetka"	7	12	ninet+PL
+"ribef+PL"	"ribefson"	6	13	ribef+PL
+"bitek+PL"	"bitekka"	6	14	bitek+PL
+"finok+PL"	"finokson"	5	15	finok+PL
+"remoz+PL"	"remozka"	5	16	remoz+PL
+"zasif+PL"	"zasifka"	5	17	zasif+PL
+"nerun+PL"	"nerunson"	4	18	nerun+PL
+"ladof+PL"	"ladofka"	4	19	ladof+PL
+"monig+PL"	"monigka"	4	20	monig+PL
+"zasum+PL"	"zasumka"	4	21	zasum+PL
+"kekeg+PL"	"kekegka"	4	22	kekeg+PL
+"fadun+PL"	"fadunka"	3	23	fadun+PL
+"gober+PL"	"goberka"	3	24	gober+PL

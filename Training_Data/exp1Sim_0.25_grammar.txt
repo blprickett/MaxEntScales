@@ -1,0 +1,77 @@
+2 constraints:
+constraint [1]: "Pl_ka" 1 100 Pl_ka
+constraint [2]: "Pl_son" 1 100 Pl_son
+
+24 tableaus
+input [1]: "gorar+PL" 2
+	 candidate [1]: "gorarka" 0 1
+	 candidate [2]: "gorarson" 1 0
+input [2]: "mureg+PL" 2
+	 candidate [1]: "muregson" 1 0
+	 candidate [2]: "muregka" 0 1
+input [3]: "gagut+PL" 2
+	 candidate [1]: "gagutka" 0 1
+	 candidate [2]: "gagutson" 1 0
+input [4]: "bizob+PL" 2
+	 candidate [1]: "bizobka" 0 1
+	 candidate [2]: "bizobson" 1 0
+input [5]: "kumud+PL" 2
+	 candidate [1]: "kumudka" 0 1
+	 candidate [2]: "kumudson" 1 0
+input [6]: "mitin+PL" 2
+	 candidate [1]: "mitinka" 0 1
+	 candidate [2]: "mitinson" 1 0
+input [7]: "fogun+PL" 2
+	 candidate [1]: "fogunson" 1 0
+	 candidate [2]: "fogunka" 0 1
+input [8]: "ninet+PL" 2
+	 candidate [1]: "ninetka" 0 1
+	 candidate [2]: "ninetson" 1 0
+input [9]: "tozim+PL" 2
+	 candidate [1]: "tozimson" 1 0
+	 candidate [2]: "tozimka" 0 1
+input [10]: "ribef+PL" 2
+	 candidate [1]: "ribefka" 0 1
+	 candidate [2]: "ribefson" 1 0
+input [11]: "bitek+PL" 2
+	 candidate [1]: "bitekka" 0 1
+	 candidate [2]: "bitekson" 1 0
+input [12]: "finok+PL" 2
+	 candidate [1]: "finokka" 0 1
+	 candidate [2]: "finokson" 1 0
+input [13]: "zobek+PL" 2
+	 candidate [1]: "zobekson" 1 0
+	 candidate [2]: "zobekka" 0 1
+input [14]: "fabem+PL" 2
+	 candidate [1]: "fabemson" 1 0
+	 candidate [2]: "fabemka" 0 1
+input [15]: "remoz+PL" 2
+	 candidate [1]: "remozka" 0 1
+	 candidate [2]: "remozson" 1 0
+input [16]: "zasif+PL" 2
+	 candidate [1]: "zasifka" 0 1
+	 candidate [2]: "zasifson" 1 0
+input [17]: "nerun+PL" 2
+	 candidate [1]: "nerunka" 0 1
+	 candidate [2]: "nerunson" 1 0
+input [18]: "ladof+PL" 2
+	 candidate [1]: "ladofka" 0 1
+	 candidate [2]: "ladofson" 1 0
+input [19]: "monig+PL" 2
+	 candidate [1]: "monigka" 0 1
+	 candidate [2]: "monigson" 1 0
+input [20]: "zasum+PL" 2
+	 candidate [1]: "zasumka" 0 1
+	 candidate [2]: "zasumson" 1 0
+input [21]: "kekeg+PL" 2
+	 candidate [1]: "kekegka" 0 1
+	 candidate [2]: "kekegson" 1 0
+input [22]: "fadun+PL" 2
+	 candidate [1]: "fadunka" 0 1
+	 candidate [2]: "fadunson" 1 0
+input [23]: "gober+PL" 2
+	 candidate [1]: "goberka" 0 1
+	 candidate [2]: "goberson" 1 0
+input [24]: "bikuk+PL" 2
+	 candidate [1]: "bikukson" 1 0
+	 candidate [2]: "bikukka" 0 1

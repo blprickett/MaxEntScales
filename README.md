@@ -1,7 +1,7 @@
 # Maximum Entropy Learning with Lexical Scales
 ## Intro
-This is an updated implementation of the maximum entropy model of phonological learning that uses lexical scales described by Linzen et al. (2013) and implemented by Hughto et al. (2019).
-The software can learn phonolical mappings, including mappings that include lexical exceptions.  
+This is an updated implementation of the maximum entropy model of phonological learning that uses lexical scales described by Linzen et al. (2013) and implemented by Hughto, Lamont, Prickett and Jarosz (2019).
+The software can learn phonological mappings, including mappings that include lexical exceptions.  
 
 ## Input Format
 To run a simulation, the model needs two input files: one showing grammatical information (whose filename should end in "_grammar.txt") and one showing distributional information (whose filename should end in "_dist.txt"). The first line of the distributional file should show how many input-output pairs the model has in its training data in the format "*number* pairs". Every subsequent line should show the following information for each of those pairs:
